@@ -1,0 +1,8 @@
+<h1>Find Flickr Fotos</h1>
+
+<%= form_tag results_path, :method => 'get' do %>
+
+<%= text_field_tag :search %>
+<%= submit_tag 'search', :name => nil %>
+
+<% end %>
